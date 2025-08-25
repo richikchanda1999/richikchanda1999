@@ -85,7 +85,7 @@
 
 #custom-title("Experience")[
   #work-heading(
-    "Mid Level Product Engineer",
+    "Product Engineer",
     "Greyfinch",
     "Remote",
     datetime(year: 2023, month: 11, day: 1),
