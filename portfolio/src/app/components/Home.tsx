@@ -85,7 +85,7 @@ export default function Home() {
             height={3712}
             className="rounded-full transition-all duration-500 hover:scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-tr from-accent-light/20 to-transparent rounded-full"></div>
+          <div className="absolute inset-0 bg-linear-to-tr from-accent-light/20 to-transparent rounded-full"></div>
         </div>
       </motion.div>
     </motion.div>

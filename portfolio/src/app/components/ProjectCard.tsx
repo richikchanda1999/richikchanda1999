@@ -20,7 +20,7 @@ export default function ProjectCard({ title, description, image, github, live, t
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6 }}
-      className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group border border-border/40"
+      className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group border border-40"
     >
       <div className="relative h-48 overflow-hidden">
         <Image
@@ -29,7 +29,7 @@ export default function ProjectCard({ title, description, image, github, live, t
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
         <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-end gap-2 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
           {github && (

@@ -147,7 +147,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: -20, rotate: 0 }}
             animate={{ opacity: 1, y: 0, rotate: 6 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="absolute -top-8 -left-4 bg-card p-4 rounded-md shadow-lg border border-border/40 z-0 w-48"
+            className="absolute -top-8 -left-4 bg-card p-4 rounded-md shadow-lg border border-40 z-0 w-48"
           >
             <pre className="text-xs font-mono">
               <code>
@@ -167,7 +167,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20, rotate: 0 }}
             animate={{ opacity: 1, y: 0, rotate: -3 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="absolute -bottom-4 -right-4 bg-card p-4 rounded-md shadow-lg border border-border/40 z-0 w-48"
+            className="absolute -bottom-4 -right-4 bg-card p-4 rounded-md shadow-lg border border-40 z-0 w-48"
           >
             <pre className="text-xs font-mono">
               <code>
@@ -187,11 +187,11 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             // transition={{ duration: 1, delay: 0.4 }}
-            className="relative z-10 rounded-md overflow-hidden border border-border/40"
+            className="relative z-10 rounded-md overflow-hidden border border-40"
             whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <div className="absolute inset-0 bg-gradient-to-tr from-background via-background/40 to-transparent z-10"></div>
+            <div className="absolute inset-0 bg-linear-to-tr from-background via-background/40 to-transparent z-10"></div>
             <Image
               src="/me.jpg"
               alt="Richik Chanda"

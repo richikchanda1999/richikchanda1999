@@ -84,7 +84,7 @@ export default function Work() {
                     "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
                   y: -5,
                 }}
-                className="flex-1 bg-card border border-border/40 rounded-lg p-6 ml-0 md:ml-8 transition-all duration-300"
+                className="flex-1 bg-card border border-40 rounded-lg p-6 ml-0 md:ml-8 transition-all duration-300"
               >
                 <h3 className="text-xl font-bold">{job.company}</h3>
                 <div className="text-accent font-mono mb-2">{job.role}</div>

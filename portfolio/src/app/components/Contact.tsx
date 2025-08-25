@@ -102,7 +102,7 @@ export default function Contact() {
                 value={formState.name}
                 onChange={handleChange}
                 required
-                className="bg-secondary/20 border-border/40 focus:border-accent transition-all duration-300"
+                className="bg-secondary/20 border-40 focus:border-accent transition-all duration-300"
                 placeholder="Your name"
               />
             </motion.div>
@@ -126,7 +126,7 @@ export default function Contact() {
                 value={formState.email}
                 onChange={handleChange}
                 required
-                className="bg-secondary/20 border-border/40 focus:border-accent transition-all duration-300"
+                className="bg-secondary/20 border-40 focus:border-accent transition-all duration-300"
                 placeholder="your.email@example.com"
               />
             </motion.div>
@@ -150,7 +150,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 rows={5}
-                className="bg-secondary/20 border-border/40 focus:border-accent transition-all duration-300 resize-none"
+                className="bg-secondary/20 border-40 focus:border-accent transition-all duration-300 resize-none"
                 placeholder="How can I help you?"
               />
             </motion.div>
@@ -213,7 +213,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
-            className="bg-card border border-border/40 rounded-lg p-6 sakura-card"
+            className="bg-card border border-40 rounded-lg p-6 sakura-card"
           >
             <motion.div
               initial={{ opacity: 0 }}

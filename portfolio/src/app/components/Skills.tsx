@@ -37,7 +37,7 @@ export default function Skills() {
               y: -5,
               boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
             }}
-            className="bg-card border border-border/40 rounded-lg p-6 transition-all duration-300"
+            className="bg-card border border-40 rounded-lg p-6 transition-all duration-300"
           >
             <motion.div
               initial={{ scale: 0.8, opacity: 0 }}

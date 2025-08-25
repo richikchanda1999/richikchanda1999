@@ -102,7 +102,7 @@ export default function RootLayout({
           <AnimatedCursor />
           <Navbar />
           <main className="pt-navbar-height">{children}</main>
-          <footer className="border-t border-border/40 py-6 text-center text-muted-foreground">
+          <footer className="border-t border-40 py-6 text-center text-muted-foreground">
             <div className="container mx-auto">
               <p className="font-mono text-sm">
                 © {new Date().getFullYear()} Richik Chanda. All rights

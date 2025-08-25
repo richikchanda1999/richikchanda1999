@@ -135,10 +135,10 @@ export default function Projects() {
               y: -10,
               transition: { duration: 0.3 },
             }}
-            className="bg-card border border-border/40 rounded-lg overflow-hidden group hover:shadow-lg transition-all duration-300 sakura-card"
+            className="bg-card border border-40 rounded-lg overflow-hidden group hover:shadow-lg transition-all duration-300 sakura-card"
           >
             <div className="relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent z-10"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-background via-background/60 to-transparent z-10"></div>
               <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5 }} className="h-full w-full">
                 <Image
                   src={project.imageUrl || "/placeholder.svg?height=400&width=600"}
