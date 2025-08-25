@@ -362,7 +362,7 @@ export default function Home() {
             <div className="paper-bg p-4 sm:p-6 rounded-lg shadow-lg transform rotate-[-0.5deg]">
               <h3 className="script text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-ink">Frontend</h3>
               <div className="grid grid-cols-2 gap-x-2 sm:gap-x-3 gap-y-1 sm:gap-y-2">
-                {["React", "Next.js", "TypeScript", "Tailwind CSS", "GraphQL"].map((skill) => (
+                {["React", "Next.js", "TypeScript", "Firebase", "GraphQL"].map((skill) => (
                   <div key={skill} className="handwritten text-sm sm:text-base md:text-lg text-amber-800">{skill}</div>
                 ))}
               </div>
@@ -382,7 +382,7 @@ export default function Home() {
             <div className="paper-bg p-4 sm:p-6 rounded-lg shadow-lg transform rotate-[-0.2deg]">
               <h3 className="script text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-ink">Cloud & DevOps</h3>
               <div className="grid grid-cols-2 gap-x-2 sm:gap-x-3 gap-y-1 sm:gap-y-2">
-                {["AWS", "Lambda", "GitHub Actions", "DigitalOcean", "Docker"].map((skill) => (
+                {["Amazon Web Services", "GitHub Actions", "DigitalOcean", "Docker"].map((skill) => (
                   <div key={skill} className="handwritten text-sm sm:text-base md:text-lg text-amber-800">{skill}</div>
                 ))}
               </div>
@@ -392,7 +392,7 @@ export default function Home() {
             <div className="paper-bg p-4 sm:p-6 rounded-lg shadow-lg transform rotate-[0.4deg]">
               <h3 className="script text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-ink">Blockchain</h3>
               <div className="grid grid-cols-2 gap-x-2 sm:gap-x-3 gap-y-1 sm:gap-y-2">
-                {["Solidity", "Web3.js", "Subgraphs", "Optimism", "Smart Contracts"].map((skill) => (
+                {["Solidity", "Web3.js", "Subgraphs", "Optimism", "The Graph"].map((skill) => (
                   <div key={skill} className="handwritten text-sm sm:text-base md:text-lg text-amber-800">{skill}</div>
                 ))}
               </div>
