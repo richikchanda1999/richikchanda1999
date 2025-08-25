@@ -1,87 +1,135 @@
-# Welcome to React Router!
+# Handmade Paper Portfolio
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A unique, handcrafted portfolio website built with React Router v7, featuring a paper-like aesthetic with handwritten fonts and organic animations.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 🎨 Design Philosophy
 
-## Features
+This portfolio captures the charm of handwritten notes on aged paper, combining modern web technologies with organic, tactile design elements that feel authentic and personal.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## ✨ Features
 
-## Getting Started
+### 🎭 Visual Design
+- **Handwritten Typography**: Custom font combinations (Kalam, Caveat, Crimson Text)
+- **Paper Textures**: Subtle grain patterns and aging effects using CSS gradients
+- **Organic Elements**: Rotated cards, hand-drawn underlines, floating animations
+- **Warm Color Palette**: Cream backgrounds (#FEF7ED) with brown ink tones (#8B4513)
+
+### 📱 User Experience
+- **Staggered Hero Animations**: Choreographed loading sequence with ink blot, name, title
+- **Scroll-Triggered Sections**: Intersection Observer API for smooth reveal animations
+- **Mobile-First Navigation**: Floating action button expanding into contextual menu
+- **Responsive Design**: Fluid layouts from mobile (320px) to desktop (1200px+)
+
+### ⚡ Technical Implementation
+- **React Router v7**: Modern file-based routing with type safety
+- **Tailwind CSS v4**: Utility-first styling with custom CSS variables
+- **TypeScript**: Full type safety throughout the application
+- **Custom Animations**: Hand-crafted CSS keyframes for organic movement
+- **Intersection Observer**: Performance-optimized scroll animations
+- **Mobile-Optimized**: Touch-friendly interactions and responsive typography
+
+## 🛠 Architecture
+
+### Component Structure
+```
+app/routes/home.tsx          # Main portfolio component
+app/app.css                  # Custom styles and animations
+app/root.tsx                 # Application shell and fonts
+```
+
+### Design System
+- **Custom CSS Properties**: Consistent color and typography variables
+- **Animation Classes**: Reusable animation utilities
+- **Responsive Utilities**: Mobile-first breakpoint system
+- **Paper Components**: Shared styling for card-like elements
+
+### Animation Timeline
+1. **Hero Section** (0-3s): Ink blot → Name → Title → Description → Links → Navigation
+2. **Scroll Sections**: Intersection Observer triggers fade-in animations
+3. **Mobile Menu**: Smooth expand/collapse with staggered menu items
+
+## 🚀 Getting Started
 
 ### Installation
-
-Install the dependencies:
-
 ```bash
-npm install
+bun install
 ```
 
 ### Development
-
-Start the development server with HMR:
-
 ```bash
-npm run dev
+bun run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
+### Build
 ```bash
-npm run build
+bun run build
 ```
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
+### Type Checking
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+bun run typecheck
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+## 📦 Dependencies
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+### Core
+- **React Router v7**: Application framework and routing
+- **React 19**: UI library with latest features
+- **TypeScript**: Type safety and developer experience
+- **Tailwind CSS v4**: Utility-first CSS framework
 
-### DIY Deployment
+### Fonts
+- **Google Fonts**: Kalam (handwritten), Caveat (script), Crimson Text (serif)
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+## 🎯 Performance Optimizations
 
-Make sure to deploy the output of `npm run build`
+- **CSS-only animations**: No JavaScript animation libraries
+- **Intersection Observer**: Efficient scroll detection
+- **Responsive images**: Optimized loading for different screen sizes
+- **Modern CSS**: Grid and Flexbox for efficient layouts
+- **Minimal bundle**: Only essential dependencies
 
+## 🔧 Customization
+
+### Colors
+Update CSS variables in `app.css`:
+```css
+--color-paper: #FEF7ED;
+--color-ink: #2D3748;
+--color-accent: #8B4513;
 ```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
+
+### Typography
+Modify font imports in `root.tsx` and update CSS variables:
+```css
+--font-handwritten: "Kalam", cursive;
+--font-script: "Caveat", cursive;
+--font-sans: "Crimson Text", serif;
 ```
 
-## Styling
+### Animations
+Customize timing and easing in CSS keyframes:
+```css
+@keyframes gentle-float {
+  0%, 100% { transform: translateY(0px) rotate(-0.5deg); }
+  50% { transform: translateY(-3px) rotate(0.5deg); }
+}
+```
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+## 📱 Mobile Features
+
+- **Floating Navigation**: Space-efficient bottom-right menu
+- **Touch Interactions**: Proper sizing for thumb navigation
+- **Responsive Typography**: Optimized text scaling across devices
+- **Compact Layouts**: Two-column skills cards, stacked sections
+
+## 🎨 Design Details
+
+- **Hand-drawn Elements**: CSS-generated underlines and decorative elements
+- **Paper Aging**: Subtle radial gradients for vintage appearance
+- **Organic Rotations**: Slight transforms on cards for handmade feel
+- **Texture Overlays**: Background patterns simulating paper grain
 
 ---
 
-Built with ❤️ using React Router.
+Built with ❤️ using React Router v7, creative CSS artistry and Claude Code
