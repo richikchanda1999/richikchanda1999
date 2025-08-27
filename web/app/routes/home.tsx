@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Richik Chanda - Product-minded Full Stack Engineer" },
-    { name: "description", content: "Portfolio of Richik Chanda, a product-minded full stack engineer with experience in React, GraphQL, and blockchain technologies." },
+    { name: "description", content: "Welcome to my abode on the Internet." },
     { name: "keywords", content: "Richik Chanda, Full Stack Engineer, React, TypeScript, GraphQL, Blockchain" },
   ];
 }
