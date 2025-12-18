@@ -93,7 +93,7 @@
   )[
     - Collaborated in a 3-person engineering team to overhaul payment infrastructure using *React and Hasura GraphQL*, ensuring zero downtime during migration and *reducing payment provider charges by over 50%* without breaking existing workflows
     - Designed and delivered a standalone Pay App with *React frontend and GraphQL backend*, implementing custom *Hasura Actions* for secure login and payment processing, impacting more than *20M+ customers* across orthodontic practices
-    - Launched the complete Pay App solution from concept to production within 30 days, enabling seamless adoption across 15+ partner clinics and processing *\$10K+ in transactions* through secure payment flows
+    - Launched the complete Pay App solution from concept to production within 3 months, enabling seamless adoption across 15+ partner clinics and processing *\$10K+ in transactions* through secure payment flows
     - Contributed to the migration of legacy calendar modules to modern architecture with *database optimization*, implementing custom *functions and indexes* to improve appointment fetching performance by 2x while ensuring *100% feature parity* with legacy system
     - Developed responsive UI components using *FullCalendar library and modern CSS*, implementing pixel-perfect designs from Figma mockups and *enhancing user engagement by 25%* across *100+ clinics* for appointment scheduling and monitoring
     - Optimized application-wide search using *GIN indexes* and *pg_trgm extension*, enabling *faster fuzzy search* capabilities across the entire Greyfinch platform and improving search response times by 60%
@@ -121,7 +121,7 @@
   #project-heading(
     "Chatterbugs Web App - Brainy Bug Resources",
   )[
-    - Built *full-stack web application* using *Next.js, TypeScript, and Hasura* to complement physical educational card decks, serving *100+ active users* and generating *\$10K+ in revenue* for the client
+    - Built *full-stack web application* using *Next.js, TypeScript, and Hasura* to complement physical educational card decks, serving *500+ active users* and generating *\$5K+ in revenue* for the client
     - Implemented *secure authentication system* with *Firebase Authentication* and custom *JWT claims* via Firebase Cloud Functions, enabling user-specific access through unique 6-digit verification codes linked to physical product purchases
     - Integrated *QR code system* allowing instant digital content access from physical cards, reducing user friction by *40%* and improving engagement rates across the platform
     - Led complete *technology stack selection and database design*, choosing optimal solutions for performance and scalability: frontend, database, and API architecture

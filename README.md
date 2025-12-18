@@ -33,7 +33,7 @@
 
 🔥 **Impact-Driven Engineering:**
 - **💰 Cost Optimization**: Reduced payment provider charges by **50%+** through infrastructure overhaul
-- **⚡ Rapid Development**: Delivered complete Pay App from concept to production in **30 days**
+- **⚡ Rapid Development**: Delivered complete Pay App from concept to production in **3 months**
 - **📈 Scale**: Built systems impacting **20M+ customers** across orthodontic practices
 - **🚀 Performance**: Improved appointment fetching by **2x** and search response times by **60%**
 - **👥 User Engagement**: Enhanced user engagement by **25%** across **100+ clinics**
@@ -69,8 +69,8 @@
 **🔗 [Live Application](https://chatterbugs.app)**
 
 📈 **Business Impact:**
-- **👥 Active Users**: Serving **100+ active users**
-- **💰 Revenue Generation**: Generated **$10K+ revenue** for client
+- **👥 Active Users**: Serving **500+ active users**
+- **💰 Revenue Generation**: Generated **$5K+ revenue** for client
 - **📱 User Experience**: Reduced user friction by **40%** and improved engagement rates by **35%**
 
 🛠️ **Technical Innovation:**
@@ -123,7 +123,7 @@
 - **20M+ users** impacted through payment infrastructure at Greyfinch
 - **20,000+ users** served through blockchain grants platform at Questbook
 - **USD $2M** in grants disbursed through decentralized platform
-- **100+ active users** and **$10K+ revenue** generated for Chatterbugs client
+- **500+ active users** and **$5K+ revenue** generated for Chatterbugs client
 
 ### **⚡ Performance Optimizations**
 - **50%+ reduction** in payment provider charges
@@ -133,7 +133,7 @@
 - **80% faster** deployment times through CI/CD automation
 
 ### **🚀 Rapid Development**
-- **30 days**: Complete Pay App from concept to production
+- **3 months**: Complete Pay App from concept to production
 - **15+ partner clinics** seamless adoption
 - **100% feature parity** maintained during legacy system migration
 - **Zero downtime** during critical infrastructure migrations
