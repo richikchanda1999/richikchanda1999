@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'resume/resume.typ'
+      - '.github/workflows/generate-resume.yaml'
 
 permissions:
   contents: read
