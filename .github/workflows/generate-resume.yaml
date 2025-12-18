@@ -30,7 +30,9 @@ jobs:
         uses: typst-community/setup-typst@v4
 
       - name: Compile PDF
-        run: typst compile ./resume/resume.typ ./resume/Richik_Chanda_Resume.pdf
+        run: |
+          cd resume/
+          typst compile resume.typ Richik_Chanda_Resume.pdf --font-path ./Nunito/
 
       - name: Prepare for Deployment
         run: |
