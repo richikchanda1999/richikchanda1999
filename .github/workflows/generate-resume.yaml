@@ -29,15 +29,24 @@ jobs:
       - name: Install Typst (Pre-built)
         uses: typst-community/setup-typst@v4
 
+      - name: Download Font Awesome 6
+        run: |
+          # Download the official desktop zip
+          wget https://use.fontawesome.com/releases/v7.1.0/fontawesome-free-7.1.0-desktop.zip
+          
+          # Unzip into a folder named 'fa-fonts' in the root directory
+          unzip -q fontawesome-free-7.1.0-desktop.zip -d fa-fonts
+
       - name: Compile PDF
         run: |
           cd resume/
-          typst compile resume.typ Richik_Chanda_Resume.pdf --font-path ./Nunito/
+          typst compile resume.typ Richik_Chanda_Resume.pdf --font-path ./Nunito/:../fa-fonts
 
       - name: Prepare for Deployment
         run: |
           mkdir public
           mv ./resume/Richik_Chanda_Resume.pdf public/
+          echo "resume.richik.me" > public/CNAME
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

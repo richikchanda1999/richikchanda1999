@@ -1,4 +1,4 @@
-#import "@preview/fontawesome:0.5.0": fa-envelope, fa-github, fa-globe, fa-linkedin
+#import "@preview/fontawesome:0.6.0": fa-envelope, fa-github, fa-globe, fa-linkedin
 
 #let resume(
   paper: "a4",
