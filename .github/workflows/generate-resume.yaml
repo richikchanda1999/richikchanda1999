@@ -26,10 +26,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Install Typst (Pre-built)
-        uses: typst-community/setup-typst@v3
-
-      - name: Install Typst
-        run: cargo install --locked typst-cli
+        uses: typst-community/setup-typst@v4
 
       - name: Compile PDF
         run: typst compile ./resume/resume.typ ./resume/Richik_Chanda_Resume.pdf
@@ -37,7 +34,7 @@ jobs:
       - name: Prepare for Deployment
         run: |
           mkdir public
-          mv Richik_Chanda_Resume.pdf public/
+          mv ./resume/Richik_Chanda_Resume.pdf public/
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
