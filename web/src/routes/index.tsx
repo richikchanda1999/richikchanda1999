@@ -75,7 +75,7 @@ function App() {
               email
             </a>
             <a
-              href="https://github.com/richikchanda1999/richikchanda1999/blob/main/resume/Richik_Chanda_Fullstack_Resume.pdf"
+              href="https://resume.richik.me/Richik_Chanda_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 hover:text-white transition-colors"
